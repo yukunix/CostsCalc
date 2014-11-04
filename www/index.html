@@ -41,23 +41,40 @@
             <!-- //app.initialize(); -->
         </script>
 
-        <div data-role="page" data-theme="b">
+        <div data-role="page" data-theme="a">
 
             <div data-role="header">
-                <h1>Property Costs Calculator</h1>
+                <h3>Property Costs Calculator</h3>
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
+                <form>
+                    <div class="ui-grid-b">
+                     <div class="ui-block-a"><label for="price" >Price</label></div>
+                     <div class="ui-block-b"><input type="number" data-clear-btn="true" name="price" id="price" pattern="[0-9]*" placeholder="5000000" value=""></div>
+                     <div class="ui-block-c"></div>
+
+                    <div class="ui-block-a"><input type="button" value="bbb"></div>
+                    <div class="ui-block-b"><input type="reset" value="sdfasdf"></div>
+                    <div class="ui-block-c"><input type="submit" value="wer"></div>
+
+                    <div class="ui-block-a"><input type="button" value="bbb"></div>
+                    <div class="ui-block-b"><input type="reset" value="sdfasdf"></div>
+                    <div class="ui-block-c"><input type="submit" value="wer"></div>
+                </div>
+                </form>
+
                 <div class="ui-grid-b">
                     <div class="ui-block-a">Block A</div>
                     <div class="ui-block-b">Block B</div>
                     <div class="ui-block-c">Block C</div>
+
+
                 </div><!-- /grid-b -->
+
+
             </div><!-- /content -->
 
-            <div data-role="footer">
-                <h4>Page Footer</h4>
-            </div><!-- /footer -->
         </div><!-- /page -->
 
     </body>
